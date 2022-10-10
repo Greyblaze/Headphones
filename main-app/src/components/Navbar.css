@@ -1,0 +1,281 @@
+:root {
+    --header-height: 3rem;
+    /*========== Colors ==========*/
+    --hue-color: 206;
+    --black-color: hsl(var(--hue-color), 4%, 4%);
+    --black-color-alt: hsl(var(--hue-color), 4%, 8%);
+    --title-color: hsl(var(--hue-color), 4%, 95%);
+    --text-color: hsl(var(--hue-color), 4%, 75%);
+    --text-color-light: hsl(var(--hue-color), 4%, 65%);
+    --white-color: #FFF;
+    --body-color: hsl(var(--hue-color), 4%, 6%);
+    --container-color: hsl(var(--hue-color), 4%, 10%);
+    --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+    --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
+    --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 5rem;
+    --bigger-font-size: 3.5rem;
+    --big-font-size: 2.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --text-line-height: 2rem;
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    /*========== Margin Bottom ==========*/
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+@media screen and (min-width: 0px) and (max-width:480px) {
+    p{
+        font-size: 1.2rem;
+    }
+
+    h4{
+        font-size: 1.35rem;
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: var(--z-fixed);
+        background: transparent;
+        padding: 1rem 0;
+    }
+
+    .nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0rem;
+        margin: auto 0;
+    }
+    
+    .logo{
+        font-size: 1rem;
+        margin: auto 0;
+    }
+
+    .logo img{
+        width: 1.75rem;
+        margin: auto 0;
+        padding-top: 0.5rem;
+        padding-right: 0rem;
+    }
+    
+    .menu {
+        display: flex;
+        margin: auto 0;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        list-style: none;
+        padding: 0 0.5rem;
+        font-size: var(--normal-font-size);
+        color: var(--container-color);
+    }
+
+    .nav-item a{
+        color: hsl(var(--hue-color), 4%, 45%);
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .nav-item a:hover{
+        color: white;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    p{
+        font-size: 1.2rem;
+    }
+
+    h4{
+        font-size: 1.35rem;
+    }
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: var(--z-fixed);
+        background: transparent;
+        padding: 1rem 0;
+    }
+
+    .nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0rem;
+        margin: auto 0;
+    }
+    
+    .logo{
+        font-size: 1rem;
+        margin: auto 0;
+
+    }
+
+    .logo img{
+        width: 2.75rem;
+        margin: auto 0;
+        padding-top: 0.5rem;
+        padding-right: 5rem;
+    }
+    
+    .menu {
+        display: flex;
+        margin: auto 0;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        list-style: none;
+        padding: 0 0.5rem;
+        font-size: var(--normal-font-size);
+        color: var(--text-gradient);
+    }
+
+    .nav-item a{
+        color: hsl(var(--hue-color), 4%, 45%);
+        text-decoration: none;
+        font-weight: 800;
+        font-size: large;
+    }
+
+    .nav-item a:hover{
+        color: white;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+    p{
+        font-size: 1.35rem;
+    }
+    
+    .navbar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: var(--z-fixed);
+        background: transparent;
+    }
+
+    .nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 1rem;
+        margin: auto 0;
+    }
+    
+    .logo{
+        font-size: 1rem;
+        margin: auto 0;
+    }
+
+    .logo img{
+        width: 3rem;
+        margin: auto 0;
+        padding-top: 0.5rem;
+        padding-right: 10rem;
+    }
+    
+    .menu {
+        display: flex;
+        margin: auto 0;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        list-style: none;
+        padding: 0 0.75rem;
+        font-size: 1.35rem;
+        color: var(--text-gradient);
+    }
+
+    .nav-item a{
+        color: hsl(var(--hue-color), 4%, 45%);
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .nav-item a:hover{
+        color: white;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .navbar {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: var(--z-fixed);
+        background: transparent;
+    }
+
+    .nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 0 1rem;
+        margin: auto 0;
+    }
+    
+    .logo{
+        font-size: 1rem;
+        margin: auto 0;
+    }
+
+    .logo img{
+        width: 3.75rem;
+        margin: auto 0;
+        padding-top: 0.5rem;
+        padding-right: 15rem;
+    }
+    
+    .menu {
+        display: flex;
+        margin: auto 0;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        list-style: none;
+        padding: 0 0.75rem;
+        font-size: 1.35rem;
+        color: var(--text-gradient);
+    }
+
+    .nav-item a{
+        color: hsl(var(--hue-color), 4%, 45%);
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .nav-item a:hover{
+        color: white;
+    }
+}
+

@@ -1,0 +1,140 @@
+@media screen and (min-width:481px) and (max-width:769px) {
+    .style h1{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .style-container{
+        justify-content: center;
+    }
+    
+    .products {
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 1.5rem;
+    }
+    
+    .col{
+        flex-basis: 20%;
+        background-color: hsl(var(--hue-color), 4%, 10%);
+        margin: 0 2rem;
+    }
+    
+    .col img{
+        width: 50%;
+        top: -1.8rem;
+        position: relative;
+    }
+    
+    .sub{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+    }
+    
+    .sub-txt p,
+    .sub-txt h4{
+        margin: 0;
+    }
+    
+    .sub-txt .button{
+        height: 50%;
+    }    
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+    .style{
+        margin: 8rem 0;
+    }
+
+    .style h1{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .style-container{
+        justify-content: center;
+    }
+    
+    .products {
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 5rem;
+    }
+    
+    .col{
+        flex-basis: 20%;
+        background-color: hsl(var(--hue-color), 4%, 10%);
+        margin: 0 2rem;
+    }
+    
+    .col img{
+        width: 50%;
+        top: -1.8rem;
+        position: relative;
+    }
+    
+    .sub{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+    }
+    
+    .sub-txt p,
+    .sub-txt h4{
+        margin: 0;
+    }
+    
+    .sub-txt .button{
+        height: 50%;
+    }    
+}
+
+@media screen and (min-width:1024px)  {
+    .style{
+        margin: 8rem 0;
+    }
+
+    .style h1{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .style-container{
+        justify-content: center;
+    }
+    
+    .products {
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 15rem;
+    }
+    
+    .col{
+        flex-basis: 20%;
+        background-color: hsl(var(--hue-color), 4%, 10%);
+        margin: 0 2rem;
+    }
+    
+    .col img{
+        width: 50%;
+        top: -1.8rem;
+        position: relative;
+    }
+    
+    .sub{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.5rem;
+    }
+    
+    .sub-txt p,
+    .sub-txt h4{
+        margin: 0;
+    }
+    
+    .sub-txt .button{
+        height: 50%;
+    }    
+}
+

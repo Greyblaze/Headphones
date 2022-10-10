@@ -1,0 +1,38 @@
+@media screen and (min-width:481px) and (max-width:769px) {
+    .footer{
+        padding: 2rem;
+        margin-top: 5rem;
+    }
+    
+    .foot-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .foot-logo{
+        flex-basis: 10%;
+        margin-top: 1rem;
+    }
+    
+    .foot-logo img{
+        width: 40%;
+    }
+    
+    .foot-product,
+    .foot-support {
+        flex-basis: 20%;
+    }
+    
+    .foot-news{
+        flex-basis: 40%;
+        margin-top: 1rem;
+    }
+    
+    .fn-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(var(--hue-color), 4%, 10%);
+        padding: 1rem;
+    }    
+}
+
