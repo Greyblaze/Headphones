@@ -1,4 +1,4 @@
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:375px) {
     .home{
         margin-bottom: 10rem;
     }
@@ -14,7 +14,102 @@
 
     .home-image img {
         width: 50%;
-        height: 80%;
+        height: 100%;
+        align-items: flex-end;
+    }
+    
+    .home-img{
+        position: absolute;
+        top: -5rem;
+        left: 0rem;
+    }
+    
+    .home-data {
+        flex-basis: 45%;
+        text-align: start;
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }  
+
+    .home-title {
+        position: relative;
+        top: 0rem;
+        left: 1rem;
+        line-height: 3.5rem;
+        font-size: var(--biggest-font-size);
+        background: var(--text-gradient);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        margin: 0;
+    }
+
+    .home-subtitle {
+        font-size: var(--big-font-size);
+        margin: 0;
+        margin-bottom: var(--mb-2);
+    }
+      
+    .home-title-description {
+        font-size: var(--h3-font-size);
+        font-weight: var(--font-medium);
+        margin-bottom: var(--mb-1);
+    }
+      
+    .home-description {
+        margin-bottom: var(--mb-2-5);
+        line-height: 1.5;
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .button {
+        display: inline-block;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        padding: 1rem 1.25rem;
+        border-radius: .5rem;
+        transition: .3s;
+        font-size: 0.85rem;
+    }
+      
+    .button:hover {
+        background-color: var(--black-color-alt);
+    }
+      
+    .button-icon {
+        font-size: 1rem;
+    }
+      
+    .button--flex {
+        display: inline-flex;
+        align-items: center;
+        column-gap: .75rem;
+    }
+
+    .home-footer a {
+        text-decoration: none;
+    }
+}
+
+
+@media screen and (min-width:376px) and (max-width:480px) {
+    .home{
+        margin-bottom: 10rem;
+    }
+    
+    .home-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-image {
+        flex-basis: 50%;
+    }
+
+    .home-image img {
+        width: 50%;
+        height: 90%;
         align-items: flex-end;
     }
     
@@ -58,7 +153,7 @@
       
     .home-description {
         margin-bottom: var(--mb-2-5);
-        line-height: var(--text-line-height);
+        line-height: 1.5;
         width: 100%;
         font-size: medium;
     }

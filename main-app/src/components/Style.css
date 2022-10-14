@@ -1,3 +1,46 @@
+@media screen and (min-width:0px) and (max-width:480px) {
+    .style h1{
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .style-container{
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+    
+    .products {
+        display: flex;
+        margin-top: 4rem;
+        margin-left: 1.5rem;
+    }
+    
+    .col{
+        flex-basis: 20%;
+        background-color: hsl(var(--hue-color), 4%, 10%);
+        margin: 0 2rem;
+    }
+    
+    .col img{
+        width: 50%;
+        top: -1rem;
+        position: relative;
+    }
+    
+    .sub{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0.25rem;
+    }
+    
+    .sub-txt p,
+    .sub-txt h4{
+        margin: 0;
+        font-size: 1rem;
+        padding: 0 0.25rem;
+    }     
+}
+
 @media screen and (min-width:481px) and (max-width:769px) {
     .style h1{
         width: 60%;
@@ -6,6 +49,7 @@
     
     .style-container{
         justify-content: center;
+        margin-left: 2rem;
     }
     
     .products {

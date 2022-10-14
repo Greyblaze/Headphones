@@ -1,3 +1,31 @@
+@media screen and (min-width:0px) and (max-width:480px) {
+    .case-container{
+        display: block;
+        justify-content: center;
+    }
+    
+    .case-img{
+        flex-basis: 50%;
+    }
+    
+    .case-txt{
+        margin: auto 0;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    .case-txt p{
+        width: 100%;
+        line-height: 1.5;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+    
+    .case-img img{
+        width: 50%;
+    }    
+}
+
 @media screen and (min-width:481px) and (max-width:768px) {
     .case-container{
         display: flex;
